@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Learning Hub</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<!--bootstrap css-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<!-- Material icon css -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Raleway|Oswald:300|Ubuntu:300" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="container-fluid">
+<div class="brand">
+	<h3><span style="color:#4ECDC4">SpringBoard</span> Learning Hub&mdash;One stop hub for all learing paths</h3>
+</div>
+<!--Base Elemebt for list items (hidden)-->
+<div class="card card-outline-secondary" id="single-item" style="width: 18rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-img-overlay">
+<span><i class="material-icons">perm_identity</i></span>
+  </div>
+  <div class="card-block text-xs-center">
+  	<h4 class="card-title">Card title</h4>
+  	<p class="card-text tags"><i class="fa fa-tag" aria-hidden="true"></i></p>
+    <p class="card-text desc">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text duration">Duration:</p>
+    <div class="row">
+    	<div class="col-md-6">
+    		<a href="#" class="btn btn-default sign-up-button" target="_blank">Sign-up</a>
+    	</div>
+   	    <div class="col-md-6">
+	    	<div class="likes">
+	    		<i class="fa fa-thumbs-up"></i><span class="like-count">0</span><br>
+	    	</div>
+    		<div class="dislikes">
+    			<i class="fa fa-thumbs-down"></i><span class="dislike-count">0</span>
+    		</div>
+    	</div>
+    </div>
+
+  </div>
+</div>
+<div class="row">
+	<div class="col-sm-3" id="radio-buttons">
+		<div class="radio">
+		<h4>Sort by:</h4>
+ 		 <label>
+   			 <input type="radio" name="optionsRadios" id="vote-up" value="voteup" checked>Vote(Up)
+ 		 </label >
+		</div>
+		<div class="radio">
+ 		 <label>
+   			 <input type="radio" name="optionsRadios" id="vote-down" value="votedown" checked>Vote(Down)
+ 		 </label>
+		</div>
+		<div class="radio">
+ 		 <label>
+   			 <input type="radio" name="optionsRadios" id="learners" value="learners" checked>Learners
+ 		 </label>
+		</div>
+		<div class="radio">
+ 		 <label>
+   			 <input type="radio" name="optionsRadios" id="duration" value="duration" checked>Duration
+ 		 </label>
+		</div>
+	</div>
+	<div class="col-sm-9">
+		<input type="text" class="form-control" placeholder="Search" id="search-box">
+		<div class="card-deck-wrapper" >
+  			<div class="card-deck" id="all-items">
+  			</div>
+  		</div>
+
+		
+	</div>
+	
+</div>
+</div>
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

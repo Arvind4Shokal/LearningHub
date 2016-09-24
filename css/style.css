@@ -1,0 +1,61 @@
+body{
+	font-family: 'Ubuntu' ,sans-serif;
+	}
+.card{
+	margin: 2px;
+}
+.brand{
+	position: relative;
+	font-family: 'Ubuntu' ,sans-serif;
+	font-size: 20px;
+	padding: 10px;
+}
+.card-img-overlay{
+	margin: 0px;
+	padding: 0;
+	margin-top:20px; 
+}
+.card-img-overlay span{
+	padding: 8px; 
+	background-color: rgba(34, 49, 63,.8);
+	
+	color: white;
+	border-radius: 0 15px 15px 0;
+}
+#search-box{
+	margin-right: 30px;
+	padding: 5px;
+	margin-bottom:20px; 
+}
+.card-title{
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+.tags{
+	font-family: 'Ubuntu' ,sans-serif;
+	font-size: 13px;
+}
+.fa-tag{
+	color: #BFBFBF;
+}
+.desc{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+}
+.duration{
+	font-size: 15px;
+	color:#4183D7;
+}
+.sign-up-button{
+	background-color: #66CC99;
+	color: white;
+}
+.material-icons{
+	margin: auto;
+}
+#single-item{
+	display: none;
+}
+a{
+	text-decoration: none;
+}
